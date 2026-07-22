@@ -191,3 +191,4 @@
 - 2026-07-22 · Kimi · v1.1: added sync protocol after GPT-5.6 architecture check — confirmed Kimi has file-transfer access only (no direct repo read/write); repo copy is truth; board formally demoted to visual review layer.
 - 2026-07-22 · Kimi · v1.2: 10 current live App Store screenshots archived into the deck (founder-supplied).
 - 2026-07-22 · Kimi · v1.3: founder directive — revenue-first. Testimonial + Mirror Mode flags downgraded from defects to founder calls, default KEEP; compliance-style flags not raised again unprompted.
+- 2026-07-22 · GPT-5.6 · connected
