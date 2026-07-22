@@ -124,6 +124,7 @@
   - screen 3: `If pressure rises, this is Fortify.` (one screenshot, no tutorial) · CTA `Got it` [BIN]
   - escape (all screens): `Set up later` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S10 implemented locally at app commit `aeb0452`; three-screen sequence and canonical-reminder tests passed; physical QA pending · IMPLEMENTED LOCAL
 
 ### S11 · Fortify — acute path — `TARGET`
 - **Arc:** *arrives fight-or-flight → job: one instruction, zero decisions → leaves agency.*
@@ -133,6 +134,7 @@
   - escalation sequence (in order): close app → physical distance → visible place → real person → anchor → Counsel [OTA]
   - win confirmation: `Recorded. That's how it's done.` [OTA]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S11 implemented locally at app commit `aeb0452`; acute hierarchy and escalation-order tests passed; physical QA pending · IMPLEMENTED LOCAL
 
 ### S12 · Post-slip — `TARGET`
 - **Arc:** *arrives in shame spiral → job: shame interruption before anything → leaves self-respect + one action.*
@@ -142,6 +144,7 @@
   - streak line: `A slip resets your current streak. Earned rank remains.` [OTA]
   - next step: `One adjustment for next time:` [trigger-based suggestion] [OTA]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S12 implemented locally at app commit `aeb0452`; stabilization-before-logging tests passed; physical QA pending · IMPLEMENTED LOCAL
 
 ### S13 · 24-hour commitment (replaces "Slide to lock shields") — `TARGET`
 - **Copy:**
@@ -200,6 +203,7 @@
 - Morning (opt-in): `Today's order is set. [order]` [BIN]
 - No shame, no streak-guilt, no "you failed to open" copy, ever.
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · canonical T-20 normal and Discreet Mode reminders implemented locally at app commit `aeb0452`; timing and rollover tests passed; device delivery QA pending · IMPLEMENTED LOCAL
 
 ---
 
@@ -214,3 +218,4 @@
 - 2026-07-22 · Kimi · v1.6: added 5 screenshot generation prompts to STORE LISTING (founder runs in ChatGPT; blank phone → real screens composited) · APPROVED
 - 2026-07-22 · founder catch · v1.7: S01–S09 + paywall reclassified OTA→BIN — first session always runs bundled code; OTA applies from second launch, so onboarding copy can never reach new users via OTA. Flag rule added to edit protocol. No change to current sprint (all onboarding ships in this binary anyway).
 - 2026-07-22 · GPT-5.6 · S01–S09 local implementation recorded at app commit `a18c13f`; 132/132 suites and 821/821 tests passed; physical QA remains pending.
+- 2026-07-22 · GPT-5.6 · S10–S12, canonical T-20 reminders, and Mirror-default-OFF local implementation recorded at app commit `aeb0452`; 133/133 suites and 828/828 tests passed; physical QA remains pending.
