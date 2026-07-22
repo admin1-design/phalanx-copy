@@ -1,4 +1,4 @@
-# PHALANX — COPY DECK (Single Source of Truth) v1.9
+# PHALANX — COPY DECK (Single Source of Truth) v2.0
 
 > **What this file is:** the authoritative record of what the app says and why — what it currently is, what it's becoming, and every change between. Lives in the repo root. Companion to the visual Screen Change Board.
 >
@@ -94,14 +94,19 @@
 ### S07 · The Rehearsal — `NEW BUILD`
 - **Arc:** *arrives doubting willpower → job: self-efficacy — manufacture one completed action → leaves "tonight is not the first time."*
 - **Copy:**
-  - headline: `Let's practice — so tonight isn't the first time.` [BIN]
+  - headline: `Let's practice Fortify.` [BIN]
+  - sub: `This is the drill you'll use when an urge hits — so tonight isn't the first time.` [BIN]
   - body (his data injected): `It's [weak window]. The loop starts. Your move:` [BIN]
   - order card: `[his first move, exact S06 string]` [BIN]
+  - instruction: `For practice: one slow breath. Hold here ten seconds.` [BIN]
+  - countdown: 10-second ring; CTA remains disabled until zero. [BIN]
   - CTA: `I did it` [BIN]
   - payoff: `That's one. It counts.` [BIN]
 - **Events (not copy, recorded here for completeness):** rehearsal_rendered → initiated → confirmed → elapsed → abandoned. [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
 - **LOG:** 2026-07-22 · GPT-5.6 · S07 implemented locally at app commit `a18c13f`; separated event lifecycle tests passed; device readback pending · IMPLEMENTED LOCAL
+- **LOG:** 2026-07-22 · founder directive · Fortify defined on first contact; ten-second breath hold and countdown made mandatory; payoff remains post-tap only · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · mandatory hold implemented at app commit `67e765f`; S07 focused tests 16/16 and TypeScript passed · IMPLEMENTED LOCAL
 
 ### S08 · Plan reveal — `TARGET`
 - **Arc:** *job: proof of competence — the plan quotes HIM.*
@@ -274,3 +279,4 @@
 - 2026-07-22 · GPT-5.6 · Top-30 Tier 5 local package: founder-approved clean-dark Item 25 layout frozen pending five physical captures; App Preview capture/edit spec prepared; exact metadata package prepared; Build 75 asset pass committed at `3c3efe9`; 135/135 suites and 837/837 tests passed; final local iOS export 60.97 MiB; signed IPA and physical media remain gated.
 - 2026-07-22 · GPT-5.6 · v1.8: added Tier 6 paid and organic copy candidates as `PROPOSED`; nine static ads and seven vertical MP4s prepared locally; nothing approved, published, launched, or spent.
 - 2026-07-22 · GPT-5.6 · v1.9: recorded the completed three-part activation measurement spine at app commit `1f565cc`; automated QA passed; device/PostHog readback remains a hard gate before spend.
+- 2026-07-22 · founder directive · v2.0: S07 made unskippable with exact breath instruction, ten-second countdown ring, disabled CTA until zero, and payoff only after the enabled tap · APPROVED.
