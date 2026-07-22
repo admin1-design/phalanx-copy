@@ -1,4 +1,4 @@
-# PHALANX — COPY DECK (Single Source of Truth) v2.0
+# PHALANX — COPY DECK (Single Source of Truth) v2.1
 
 > **What this file is:** the authoritative record of what the app says and why — what it currently is, what it's becoming, and every change between. Lives in the repo root. Companion to the visual Screen Change Board.
 >
@@ -78,9 +78,13 @@
 - **Copy:**
   - headline: `What are you holding the line for?` [BIN]
   - taps: `My relationship` `My energy` `My self-respect` `My faith` `My future` [BIN]
-  - optional custom field label: `In your own words (optional)` [BIN]
+  - required one-line field instruction: `Give it a name. One line. This is what you'll see when the urge hits.` [BIN]
+- **Gate:** Continue unlocks only after at least one anchor is selected and the required line contains non-whitespace text. All other onboarding questions retain zero required typing. [BIN]
+- **Measurement:** `onboarding_s05_abandoned` records selected-anchor count, whether a line exists, line length, and dwell time. It never records the written line. [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
 - **LOG:** 2026-07-22 · GPT-5.6 · S05 implemented locally at app commit `a18c13f`; downstream propagation tests passed; physical QA pending · IMPLEMENTED LOCAL
+- **LOG:** 2026-07-23 · founder directive · optional field superseded by required selected anchor plus one-line gate; abandonment added as buyer-intent measurement · APPROVED
+- **LOG:** 2026-07-23 · GPT-5.6 · implemented locally at app commit `7c00d04`; S05-focused tests 31/31 and TypeScript passed · IMPLEMENTED LOCAL
 
 ### S06 · Choose first move — `TARGET`
 - **Arc:** *job: agency — he chooses; self-endorsed actions survive.*
@@ -280,3 +284,4 @@
 - 2026-07-22 · GPT-5.6 · v1.8: added Tier 6 paid and organic copy candidates as `PROPOSED`; nine static ads and seven vertical MP4s prepared locally; nothing approved, published, launched, or spent.
 - 2026-07-22 · GPT-5.6 · v1.9: recorded the completed three-part activation measurement spine at app commit `1f565cc`; automated QA passed; device/PostHog readback remains a hard gate before spend.
 - 2026-07-22 · founder directive · v2.0: S07 made unskippable with exact breath instruction, ten-second countdown ring, disabled CTA until zero, and payoff only after the enabled tap · APPROVED.
+- 2026-07-23 · founder directive · v2.1: S05 now requires at least one selected anchor plus one written line; Continue remains locked otherwise; privacy-safe S05 abandonment measurement added · APPROVED.
