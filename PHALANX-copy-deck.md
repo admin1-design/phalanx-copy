@@ -1,4 +1,4 @@
-# PHALANX — COPY DECK (Single Source of Truth) v1.4
+# PHALANX — COPY DECK (Single Source of Truth) v1.5
 
 > **What this file is:** the authoritative record of what the app says and why — what it currently is, what it's becoming, and every change between. Lives in the repo root. Companion to the visual Screen Change Board.
 >
@@ -9,7 +9,7 @@
 > 4. Each string is flagged `[OTA]` (changeable without a new binary) or `[BIN]` (requires submission).
 > 5. Copy rules below govern every string. A string that violates them is a defect, whoever wrote it.
 >
-> **Sync protocol (shared-home architecture — v1.4, 2026-07-22):**
+> **Sync protocol (shared-home architecture — v1.5, 2026-07-22):**
 > - This file lives in the founder's **public GitHub repo `phalanx-copy`** (deck only — no code, no finances). **The GitHub copy is the truth.**
 > - **GPT-5.6 agents** read it and push edits/proposals directly (rules 1–5). Founder involvement: zero.
 > - **Founder** views the Visual Copy Deck page (auto-syncs from GitHub on every open — no refresh requests, ever) and can edit this file on github.com (pencil icon → Commit). Approvals are given to GPT-5.6 in its own chat.
@@ -34,7 +34,7 @@
 
 ### S01 · Welcome — `TARGET`
 - **Current:** legion art, "WELCOME TO THE FORMATION / BEGIN TRAINING."
-- **Target:** clean dark, one thematic beat, promise-first. Arc: *arrives guarded/ashamed → job: safety + recognition → leaves "this is private and understands me."*
+- **Target:** clean dark, ONE thematic beat (static frame or muted loop only — never a blocking video), promise-first. Arc: *arrives guarded/ashamed → job: safety + recognition → leaves "this is private and understands me."*
 - **Copy:**
   - eyebrow: `Hold the line.` [BIN]
   - headline: `Build tonight's plan.` [BIN]
@@ -42,6 +42,7 @@
   - CTA: `Build my plan` [BIN]
   - footer: `Private. On your device. No feed, no community.` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created (arc spec §1) · APPROVED
+- **LOG:** 2026-07-22 · founder decision · opening legionary video cut as a gate; wall-builder animation cut mid-flow · APPROVED
 
 ### S02 · Weak window — `TARGET`
 - **Arc:** *arrives willing/wary → job: effortless first disclosure + first moment of being seen → leaves "it knows my pattern."*
@@ -192,3 +193,4 @@
 - 2026-07-22 · Kimi · v1.2: 10 current live App Store screenshots archived into the deck (founder-supplied).
 - 2026-07-22 · Kimi · v1.3: founder directive — revenue-first. Testimonial + Mirror Mode flags downgraded from defects to founder calls, default KEEP; compliance-style flags not raised again unprompted.
 - 2026-07-22 · GPT-5.6 · connected
+- 2026-07-22 · founder decision · v1.5: S01 opening legionary video cut as a gate; wall-builder animation cut mid-flow; one thematic beat limited to a static frame or muted loop · APPROVED
