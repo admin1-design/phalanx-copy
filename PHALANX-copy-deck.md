@@ -44,6 +44,7 @@
   - footer: `Private. On your device. No feed, no community.` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created (arc spec §1) · APPROVED
 - **LOG:** 2026-07-22 · founder decision · opening legionary video cut as a gate; wall-builder animation cut mid-flow · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S01 implemented locally at app commit `a18c13f`; automated QA passed; physical QA pending · IMPLEMENTED LOCAL
 
 ### S02 · Weak window — `TARGET`
 - **Arc:** *arrives willing/wary → job: effortless first disclosure + first moment of being seen → leaves "it knows my pattern."*
@@ -52,6 +53,7 @@
   - options: `Late night` · `After work` · `Early morning` · `Weekends` · `It varies` [BIN]
   - on-select micro-copy: `That's the most common one. We plan around it.` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S02 implemented locally at app commit `a18c13f`; physical QA pending · IMPLEMENTED LOCAL
 
 ### S03 · Access (merged: device + route + location) — `TARGET`
 - **Arc:** *job: map the loop without confession — clinical distance lowers shame.*
@@ -60,6 +62,7 @@
   - groups: device (`Phone` / `Computer` / `Tablet`) → route (`Social media` / `Search` / `Direct` / `Messaging`) → place (`Bedroom` / `Bathroom` / `Home office` / `Other`) [BIN]
   - footer: `Three taps. No essays.` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S03 implemented locally at app commit `a18c13f`; physical QA pending · IMPLEMENTED LOCAL
 
 ### S04 · Triggers (max 2) — `TARGET`
 - **Arc:** *job: first insight — it's not about porn, it's about the feeling underneath.*
@@ -68,6 +71,7 @@
   - chips: `Stress` `Tired` `Alone` `Bored` `Anxious` `Can't sleep` `Other` [BIN]
   - post-select: `Most men pick two. The plan covers both.` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S04 implemented locally at app commit `a18c13f`; physical QA pending · IMPLEMENTED LOCAL
 
 ### S05 · What you're protecting — `TARGET`
 - **Arc:** *job: emotional peak — pivot from problem to stakes. Selection feeds plan reveal + Fortify anchors verbatim.*
@@ -76,6 +80,7 @@
   - taps: `My relationship` `My energy` `My self-respect` `My faith` `My future` [BIN]
   - optional custom field label: `In your own words (optional)` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S05 implemented locally at app commit `a18c13f`; downstream propagation tests passed; physical QA pending · IMPLEMENTED LOCAL
 
 ### S06 · Choose first move — `TARGET`
 - **Arc:** *job: agency — he chooses; self-endorsed actions survive.*
@@ -84,6 +89,7 @@
   - 3 tailored options (generated from S02–S04), e.g.: `Phone charges in the kitchen` · `Instagram off the phone after 10` · `Laptop stays out of the bedroom` [BIN]
   - edit link: `Adjust this` (optional) [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S06 implemented locally at app commit `a18c13f`; exact-label propagation tests passed; physical QA pending · IMPLEMENTED LOCAL
 
 ### S07 · The Rehearsal — `NEW BUILD`
 - **Arc:** *arrives doubting willpower → job: self-efficacy — manufacture one completed action → leaves "tonight is not the first time."*
@@ -95,6 +101,7 @@
   - payoff: `That's one. It counts.` [BIN]
 - **Events (not copy, recorded here for completeness):** rehearsal_rendered → initiated → confirmed → elapsed → abandoned. [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S07 implemented locally at app commit `a18c13f`; separated event lifecycle tests passed; device readback pending · IMPLEMENTED LOCAL
 
 ### S08 · Plan reveal — `TARGET`
 - **Arc:** *job: proof of competence — the plan quotes HIM.*
@@ -105,6 +112,7 @@
   - insight line (best of cut briefings): `Urges peak and pass in about 90 seconds. Your plan is built for those 90 seconds.` [BIN]
   - CTA: `See it tonight` [BIN]
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S08 implemented locally at app commit `a18c13f`; computed-summary and milestone tests passed; physical QA pending · IMPLEMENTED LOCAL
 
 ### S09 · Paywall — `TARGET` (full detail in PAYWALL section below)
 
@@ -158,6 +166,7 @@
   - footer: `Restore purchase` · `Terms` · `Privacy` [BIN]
   - **BANNED on this screen:** testimonials (until verified), outcome stats, countdown timers, fake discounts.
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S09 implemented locally at app commit `a18c13f`; StoreKit fail-closed and trial-eligibility tests passed; physical purchase QA pending · IMPLEMENTED LOCAL
 
 ---
 
@@ -204,3 +213,4 @@
 - 2026-07-22 · founder decision · v1.5: S01 opening legionary video cut as a gate; wall-builder animation cut mid-flow; one thematic beat limited to a static frame or muted loop · APPROVED
 - 2026-07-22 · Kimi · v1.6: added 5 screenshot generation prompts to STORE LISTING (founder runs in ChatGPT; blank phone → real screens composited) · APPROVED
 - 2026-07-22 · founder catch · v1.7: S01–S09 + paywall reclassified OTA→BIN — first session always runs bundled code; OTA applies from second launch, so onboarding copy can never reach new users via OTA. Flag rule added to edit protocol. No change to current sprint (all onboarding ships in this binary anyway).
+- 2026-07-22 · GPT-5.6 · S01–S09 local implementation recorded at app commit `a18c13f`; 132/132 suites and 821/821 tests passed; physical QA remains pending.
