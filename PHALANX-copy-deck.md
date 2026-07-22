@@ -204,6 +204,9 @@
 - **LOG:** 2026-07-22 · Kimi · created · APPROVED
 - **LOG:** 2026-07-22 · Kimi · current 10 live screenshots archived to deck · APPROVED
 - **LOG:** 2026-07-22 · Kimi · per founder directive: testimonial + Mirror Mode downgraded from defects to founder calls, default KEEP — revenue-first, not raised again · APPROVED
+- **LOG:** 2026-07-22 · founder decision · Item 25 reference composite approved as the final layout specification; final assets wait for five physical Build 75 captures at the QA gate; no further screenshot work before then · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · Item 26 physical-capture/edit specification prepared; final App Preview MP4 waits for fresh Build 75 device footage and remains a PPO challenger, not an assumed conversion win · PREPARED
+- **LOG:** 2026-07-22 · GPT-5.6 · Item 27 metadata entry package prepared verbatim from the deck/store package; Build 75 asset optimization committed at `3c3efe9`; final local iOS export measured 60.97 MiB; signed-IPA size proof remains pending · IMPLEMENTED LOCAL
 
 ---
 
@@ -231,3 +234,4 @@
 - 2026-07-22 · GPT-5.6 · S01–S09 local implementation recorded at app commit `a18c13f`; 132/132 suites and 821/821 tests passed; physical QA remains pending.
 - 2026-07-22 · GPT-5.6 · S10–S12, canonical T-20 reminders, and Mirror-default-OFF local implementation recorded at app commit `aeb0452`; 133/133 suites and 828/828 tests passed; physical QA remains pending.
 - 2026-07-22 · GPT-5.6 · S13 and Top-30 correctness sweep recorded at app commit `0a56f46`; 134/134 suites and 835/835 tests passed; physical overflow QA remains pending.
+- 2026-07-22 · GPT-5.6 · Top-30 Tier 5 local package: founder-approved clean-dark Item 25 layout frozen pending five physical captures; App Preview capture/edit spec prepared; exact metadata package prepared; Build 75 asset pass committed at `3c3efe9`; 135/135 suites and 837/837 tests passed; final local iOS export 60.97 MiB; signed IPA and physical media remain gated.
