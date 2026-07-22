@@ -1,0 +1,9 @@
+﻿
+Algorithm Hash                                                             Path                                        
+--------- ----                                                             ----                                        
+SHA256    F954B7ED64CC8EF74F0041B08FACD92BD64B30B1A97B71886925053A20DF7212 C:\Users\jesse\Desktop\1 PHALANX\marketin...
+SHA256    83F7EF0EAB0199AE4A0A6CA6CE0336FAC2A5074BC0E7532C82C9108F093399F8 C:\Users\jesse\Desktop\1 PHALANX\marketin...
+SHA256    94863DE00BC3E9472BCC97D5C70C45F590EA6492957BB232DE99C8461E6EB944 C:\Users\jesse\Desktop\1 PHALANX\marketin...
+
+
+
