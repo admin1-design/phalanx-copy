@@ -152,6 +152,17 @@
   - vow: `For the next 24 hours, I will use my plan before the loop takes over. If I slip, I will return immediately.` [OTA]
   - CTA: `Commit` [OTA]
 - **LOG:** 2026-07-22 · GPT-5.6 wording, Kimi adopted · APPROVED
+- **LOG:** 2026-07-22 · GPT-5.6 · S13 implemented locally at app commit `0a56f46`; blocker-like slider and rejected rotating vows removed; automated QA passed; physical QA pending · IMPLEMENTED LOCAL
+
+## APP-WIDE CORRECTNESS LABELS
+
+- Command lifetime counter: `LIFETIME CLEAN DAYS` [OTA]
+- Progress counters: `Current Streak` · `Best Streak` [OTA]
+- Progress rank explainer: `Rank holds your highest clean-time milestone. DP is earned by completing drills, orders, field notes, and reset reports.` [OTA]
+- Arsenal rank explainer: `Rank preserves the highest clean-time milestone you have earned.` [OTA]
+- Logic contract: displayed rank = higher of current and historically earned rank; a slip resets the current streak, not earned rank.
+- Generated-order contract: known place/device combinations must use natural grammar (for example, `on the computer in the bedroom`), never label concatenation such as `at Bedroom on the computer`.
+- **LOG:** 2026-07-22 · GPT-5.6 · Top-30 items 20–24 implemented locally at app commit `0a56f46`; exhaustive grammar and monotonic-progress tests passed; Dynamic Type/smallest-iPhone physical QA pending · IMPLEMENTED LOCAL
 
 ---
 
@@ -219,3 +230,4 @@
 - 2026-07-22 · founder catch · v1.7: S01–S09 + paywall reclassified OTA→BIN — first session always runs bundled code; OTA applies from second launch, so onboarding copy can never reach new users via OTA. Flag rule added to edit protocol. No change to current sprint (all onboarding ships in this binary anyway).
 - 2026-07-22 · GPT-5.6 · S01–S09 local implementation recorded at app commit `a18c13f`; 132/132 suites and 821/821 tests passed; physical QA remains pending.
 - 2026-07-22 · GPT-5.6 · S10–S12, canonical T-20 reminders, and Mirror-default-OFF local implementation recorded at app commit `aeb0452`; 133/133 suites and 828/828 tests passed; physical QA remains pending.
+- 2026-07-22 · GPT-5.6 · S13 and Top-30 correctness sweep recorded at app commit `0a56f46`; 134/134 suites and 835/835 tests passed; physical overflow QA remains pending.
