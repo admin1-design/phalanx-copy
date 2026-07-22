@@ -1,4 +1,4 @@
-# PHALANX — COPY DECK (Single Source of Truth) v1.7
+# PHALANX — COPY DECK (Single Source of Truth) v1.8
 
 > **What this file is:** the authoritative record of what the app says and why — what it currently is, what it's becoming, and every change between. Lives in the repo root. Companion to the visual Screen Change Board.
 >
@@ -221,6 +221,42 @@
 
 ---
 
+## TIER 6 MARKETING COPY CANDIDATES
+
+**Status:** `PROPOSED` — locally prepared for review. None of this copy is founder-approved, live, posted, scheduled, uploaded, or running. The local asset package remains outside this public copy repository.
+
+### Paid social — privacy / no community
+
+- `A01` — headline: `QUIT PORN. PRIVATELY.` · subhead: `A 30-day plan. No feed. No community.` · CTA: `SEE THE PLAN`
+- `A02` — headline: `NO PUBLIC STREAK.` · subhead: `Private progress. One clear next action.` · CTA: `BUILD TONIGHT'S PLAN`
+- `A03` — headline: `RECOVERY IS NOT CONTENT.` · subhead: `No posting. No audience. Just a plan.` · CTA: `GET PHALANX`
+
+### Paid social — rehearsal / tonight plan
+
+- `B01` — headline: `PLAN FOR TONIGHT.` · subhead: `Choose one move before the weak window starts.` · CTA: `BUILD THE PLAN`
+- `B02` — headline: `PRACTICE THE FIRST MOVE.` · subhead: `One rehearsal now. One clear action later.` · CTA: `SEE HOW IT WORKS`
+- `B03` — headline: `ONE ORDER A DAY.` · subhead: `A concrete action built around the risky hour.` · CTA: `START THE 30-DAY PLAN`
+
+### Paid social — slip recovery
+
+- `C01` — headline: `A SLIP DOESN'T ERASE PROGRESS.` · subhead: `Close everything. Reset. Keep moving.` · CTA: `RETURN TO THE PLAN`
+- `C02` — headline: `STOP THE SECOND HIT.` · subhead: `One slip does not have to become a lost night.` · CTA: `SEE THE RESET`
+- `C03` — headline: `RESET. DON'T START OVER.` · subhead: `Record what happened. Adjust the next move.` · CTA: `KEEP MOVING`
+
+### Seven-day faceless organic queue
+
+- `D01` — `POV: IT'S 11:47 PM.` → `THE LOOP USUALLY STARTS BEFORE THE SEARCH.` → `MOVE THE PHONE. LEAVE THE ROOM.` → `BUILD TONIGHT'S PLAN. PHALANX`
+- `D02` — `DON'T WAIT FOR WILLPOWER.` → `CHOOSE ONE MOVE BEFORE THE WEAK WINDOW.` → `PRACTICE IT ONCE.` → `USE IT TONIGHT. PHALANX`
+- `D03` — `WHEN THE URGE HITS.` → `GIVE YOURSELF ONE PHYSICAL ORDER.` → `DO IT BEFORE THE DEBATE.` → `FORTIFY. PHALANX`
+- `D04` — `A SLIP ISN'T THE WHOLE NIGHT.` → `CLOSE EVERYTHING.` → `PUT THE PHONE AWAY.` → `RETURN TO COMMAND. PHALANX`
+- `D05` — `CLEAN TIME ISN'T THE ONLY PROOF.` → `ORDERS COMPLETED.` → `RESCUES AND RESETS.` → `PROGRESS YOU CAN ACT ON. PHALANX`
+- `D06` — `NO FEED.` → `NO COMMUNITY.` → `NO PUBLIC STREAK.` → `PRIVATE BY DESIGN. PHALANX`
+- `D07` — `BEFORE: RESIST AT MIDNIGHT.` → `AFTER: PHONE CHARGES OUTSIDE THE BEDROOM.` → `ONE DECISION MADE EARLY.` → `ONE LESS BATTLE AT MIDNIGHT. PHALANX`
+
+- **LOG:** 2026-07-22 · GPT-5.6 · nine static paid candidates and seven faceless vertical MP4s prepared locally; technical media QA passed; review and all external use pending · PROPOSED
+
+---
+
 ## CHANGE LOG (global)
 
 - 2026-07-22 · Kimi · v1.0 created: 13 screen entries + paywall + store + notifications; emotional arc integrated per screen; copy rules codified.
@@ -235,3 +271,4 @@
 - 2026-07-22 · GPT-5.6 · S10–S12, canonical T-20 reminders, and Mirror-default-OFF local implementation recorded at app commit `aeb0452`; 133/133 suites and 828/828 tests passed; physical QA remains pending.
 - 2026-07-22 · GPT-5.6 · S13 and Top-30 correctness sweep recorded at app commit `0a56f46`; 134/134 suites and 835/835 tests passed; physical overflow QA remains pending.
 - 2026-07-22 · GPT-5.6 · Top-30 Tier 5 local package: founder-approved clean-dark Item 25 layout frozen pending five physical captures; App Preview capture/edit spec prepared; exact metadata package prepared; Build 75 asset pass committed at `3c3efe9`; 135/135 suites and 837/837 tests passed; final local iOS export 60.97 MiB; signed IPA and physical media remain gated.
+- 2026-07-22 · GPT-5.6 · v1.8: added Tier 6 paid and organic copy candidates as `PROPOSED`; nine static ads and seven vertical MP4s prepared locally; nothing approved, published, launched, or spent.
