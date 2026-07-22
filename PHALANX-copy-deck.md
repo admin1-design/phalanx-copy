@@ -1,4 +1,4 @@
-# PHALANX — COPY DECK (Single Source of Truth) v1.8
+# PHALANX — COPY DECK (Single Source of Truth) v1.9
 
 > **What this file is:** the authoritative record of what the app says and why — what it currently is, what it's becoming, and every change between. Lives in the repo root. Companion to the visual Screen Change Board.
 >
@@ -254,6 +254,7 @@
 - `D07` — `BEFORE: RESIST AT MIDNIGHT.` → `AFTER: PHONE CHARGES OUTSIDE THE BEDROOM.` → `ONE DECISION MADE EARLY.` → `ONE LESS BATTLE AT MIDNIGHT. PHALANX`
 
 - **LOG:** 2026-07-22 · GPT-5.6 · nine static paid candidates and seven faceless vertical MP4s prepared locally; technical media QA passed; review and all external use pending · PROPOSED
+- **LOG:** 2026-07-22 · GPT-5.6 · exact activation composite wired locally at app commit `1f565cc`: rehearsal confirmed → durable order saved → native reminder armed; shared `1.3.11 / top30_v1` tags; no weak-window text, chosen action, or exact reminder time in the two new events; 136/136 suites and 841/841 tests passed; physical event readback pending · IMPLEMENTED LOCAL
 
 ---
 
@@ -272,3 +273,4 @@
 - 2026-07-22 · GPT-5.6 · S13 and Top-30 correctness sweep recorded at app commit `0a56f46`; 134/134 suites and 835/835 tests passed; physical overflow QA remains pending.
 - 2026-07-22 · GPT-5.6 · Top-30 Tier 5 local package: founder-approved clean-dark Item 25 layout frozen pending five physical captures; App Preview capture/edit spec prepared; exact metadata package prepared; Build 75 asset pass committed at `3c3efe9`; 135/135 suites and 837/837 tests passed; final local iOS export 60.97 MiB; signed IPA and physical media remain gated.
 - 2026-07-22 · GPT-5.6 · v1.8: added Tier 6 paid and organic copy candidates as `PROPOSED`; nine static ads and seven vertical MP4s prepared locally; nothing approved, published, launched, or spent.
+- 2026-07-22 · GPT-5.6 · v1.9: recorded the completed three-part activation measurement spine at app commit `1f565cc`; automated QA passed; device/PostHog readback remains a hard gate before spend.
