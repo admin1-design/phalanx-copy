@@ -1,6 +1,6 @@
-# PHALANX App Store metadata package — Build 75
+# PHALANX App Store metadata package — Build 92
 
-Status: **ENTRY-READY; NOT STAGED OR PUBLISHED**
+Status: **FOUNDER-APPROVED FOR BUILD 92 SUBMISSION**
 
 Canonical sources:
 
@@ -26,41 +26,34 @@ Canonical sources:
 
 ## Description
 
-PHALANX is a private 30-day system for men quitting porn — built for the exact moment an urge starts, not just the day after.
+Quit porn with a plan you can use when the urge actually hits.
 
-No public feed. No community. No shame. Just a plan, and one clear next action when you need it most.
+HOW PHALANX WORKS
 
-WHEN AN URGE STARTS
+1. Build a private 30-day plan around the times, triggers, and situations where you struggle most.
+2. Open Fortify when an urge starts.
+3. Take one clear action each day — and get straight back on track after a slip.
 
-Open Fortify. Tell it what's happening — or skip the questions when it's urgent — and get one clear next action: leave the room, phone down, breathe, move. Record the win and get back to your night.
+Fortify gives you three ways to interrupt the moment: a guided reset, a 90-second Hold using your own anchors and recordings, and optional Mirror Mode.
 
-A 30-DAY PLAN, BUILT AROUND YOU
+Keep your daily orders and progress in one place. When you need direction, ask the Centurion for one clear next step.
 
-Your plan is shaped by your weak windows, triggers, and what you're protecting. Each day you get one order — small, concrete, doable. Progress is measured by what you do, not just days counted.
+No feed. No community. No public performance.
 
-AFTER A SLIP
+PHALANX is free to download. Full access requires an auto-renewing subscription. Apple shows the price, trial eligibility, and renewal terms before purchase.
 
-A slip doesn't erase your campaign. Record what set it off, choose your next step, and keep moving. Your progress stays — because recovery is part of the plan, not the end of it.
+PHALANX is a self-improvement app. It does not provide medical advice, diagnosis, treatment, therapy, or crisis care.
 
-PRIVATE BY DESIGN
+Terms of Use: https://phalanxapp.com/terms
+Privacy Policy: https://phalanxapp.com/privacy
 
-No public feed, no group posting, no streaks on display. Your plan, journal, and progress stay on your device. Discreet Mode keeps the app private on your home screen too.
+## Description change log
 
-AI GUIDANCE, ON YOUR TERMS
-
-The Centurion can suggest a next step or review your week. It is AI — not a counselor, clinician, or crisis service — and sharing any personal context with it is your choice, off by default.
-
-ACCESS
-
-PHALANX is free to download. A subscription or Lifetime Access unlocks the full system. Apple shows the exact price, trial eligibility, and renewal terms before any purchase.
-
-PHALANX is a self-improvement app. It is not a medical device and does not provide diagnosis, treatment, therapy, or crisis care. If you are in immediate danger, contact local emergency services.
-
-Terms: https://phalanxapp.com/terms · Privacy: https://phalanxapp.com/privacy
+- `2026-07-24 · founder-approved`: Replaced the long feature-manual description with concise Cal AI-style store copy; removed obsolete Battle Stations and Lifetime Access references; retained functional Terms and Privacy links.
 
 ## Evidence boundary
 
-- The Tier 1 default Centurion payload fix shipped locally at app commit `da88ae6`; the AI context sentence is therefore eligible for the Build 75 metadata candidate, subject to physical/network payload QA.
-- The `PRIVATE BY DESIGN` paragraph is copied verbatim from the approved package. Before publication, the final data-flow audit must confirm the statement about plan and progress storage against any continuity or recovery sync. Do not silently rewrite it outside the deck.
-- This package has not been entered into App Store Connect and does not authorize staging, submission, or release.
-
+- The description names only Build 92 features already verified in the submitted binary: the 30-day plan, Fortify Reset/Hold/Mirror modes, daily orders, progress, post-slip recovery, and Centurion.
+- It does not claim Lifetime Access is offered.
+- It does not claim that all user data stays exclusively on-device.
+- It retains the Terms of Use and Privacy Policy links required for the subscription-app metadata boundary.
